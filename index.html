@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b12">
+<meta name="description" content="INFINITE WALLPAPER — Zero API Key 4K Motion Gallery"><title>INFINITE WALLPAPER — ZERO KEY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<main id="app"><section id="stage" class="stage">
+<div class="ambient"></div><img id="photo" class="media hidden" alt=""><video id="motion" class="media hidden" autoplay muted loop playsinline></video><div class="shade"></div>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">∞</span><span>INFINITE<span class="brand-light"> WALLPAPER</span></span></a><div class="top-actions"><span id="source-status" class="status"><i></i> Đang kết nối nguồn mở</span><button id="settings-open" class="icon-btn" title="Cài đặt">⚙</button><button id="fullscreen" class="icon-btn" title="Toàn màn hình">⛶</button></div></header>
+<div class="hero"><div class="eyebrow"><span class="live-dot"></span> DAT LOVE IT ·</div><h1 id="headline">Explore<br><em>the infinite.</em></h1><p id="description">Một cửa sổ mở ra thế giới hình ảnh chuyển động.</p><div class="metadata"><span id="media-type">ĐANG TẢI NỘI DUNG</span><b>·</b><span id="resolution">—</span><b>·</b><a id="attribution" href="#" target="_blank" rel="noopener">Nguồn nội dung</a></div></div>
+<footer class="bottom-bar"><div class="counter"><strong id="counter">—</strong><span>TRONG PHIÊN</span></div><div class="controls"><button id="previous" class="control-btn" title="Trước">↶</button><button id="play-pause" class="play-btn" title="Tạm dừng">Ⅱ</button><button id="next" class="control-btn" title="Tiếp theo">↷</button></div><div class="right-controls"><label class="interval">TỐC ĐỘ <select id="interval"><option value="8">8 giây</option><option value="12" selected>12 giây</option><option value="20">20 giây</option><option value="30">30 giây</option><option value="60">60 giây</option></select></label><button id="like" class="icon-btn" title="Yêu thích">♡</button></div></footer>
+<div class="progress-track"><div id="progress" class="progress"></div></div><div id="toast" class="toast"></div>
+</section></main>
+<aside id="settings" class="settings-panel" aria-hidden="true"><div class="panel-head"><div><div class="eyebrow">PERSONALIZE</div><h2>Cài đặt gallery</h2></div><button id="settings-close" class="icon-btn">×</button></div><div class="panel-content">
+<section class="setting-group"><h3>Nguồn nội dung tự động</h3><p class="hint">Không cần tài khoản, không cần API key. Website tìm nội dung qua các API công khai và tải trực tiếp từ máy chủ nguồn.</p>
+<div class="source-card"><b>Wikimedia Commons</b><span>Ảnh + video · phân trang · thông tin tác giả và giấy phép</span><a href="https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia" target="_blank" rel="noopener">Điều kiện tái sử dụng ↗</a></div>
+<div class="source-card"><b>NASA Image and Video Library</b><span>Ảnh + video · tìm kiếm theo chủ đề · không cần key</span><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" target="_blank" rel="noopener">Quy định sử dụng media ↗</a></div>
+<div class="source-card"><b>Lorem Picsum</b><span>Ảnh ngẫu nhiên bổ sung · kích thước phụ thuộc ảnh gốc</span><a href="https://picsum.photos/" target="_blank" rel="noopener">Tài liệu ↗</a></div>
+</section>
+<section class="setting-group"><h3>Thể loại</h3><div class="chips" id="categories"><button class="chip active" data-query="landscape nature mountains">Thiên nhiên</button><button class="chip" data-query="architecture city">Kiến trúc</button><button class="chip" data-query="space galaxy nebula">Vũ trụ</button><button class="chip" data-query="abstract art">Trừu tượng</button><button class="chip" data-query="ocean underwater">Đại dương</button><button class="chip" data-query="technology futuristic">Công nghệ</button><button class="chip" data-query="forest waterfall">Rừng & thác</button></div></section>
+<section class="setting-group"><h3>Loại nội dung</h3><label class="check"><input id="enable-photos" type="checkbox" checked> Ảnh chất lượng cao</label><label class="check"><input id="enable-videos" type="checkbox" checked> Video chuyển động</label><label class="check"><input id="high-quality" type="checkbox" checked> Ưu tiên ảnh từ 1920px trở lên</label><label class="check"><input id="use-picsum" type="checkbox" checked> Dùng Picsum làm nguồn bổ sung</label></section>
+<div class="panel-actions"><button id="save-settings" class="primary-btn">Lưu và tải nội dung</button><button id="reset-settings" class="secondary-btn">Mặc định</button></div>
+<p class="footnote">Không thể bảo đảm mọi nội dung đạt 4K hoặc có vô hạn nội dung mới. Mỗi tệp có giấy phép riêng; hãy mở trang nguồn để kiểm tra trước khi tái sử dụng. Không có API key nhưng các nguồn vẫn có thể áp dụng giới hạn truy cập.</p>
+</div></aside><div id="backdrop" class="backdrop"></div>
+<script type="module" src="assets/js/app.js"></script>
+</body></html>
